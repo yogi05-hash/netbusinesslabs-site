@@ -1,0 +1,28 @@
+/* CSS continues */
+.footer-bottom p {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 968px) {
+    .nav-links { display: none; }
+    .comparison-container,
+    .founder-container,
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+    .founder-container { text-align: center; }
+    .founder-image { max-width: 300px; margin: 0 auto; }
+    .footer-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    .section { padding: 5rem 5%; }
+}
+@media (max-width: 640px) {
+    .footer-container { grid-template-columns: 1fr; }
+    .hero h1 { font-size: 2.25rem; }
+    .stats-grid { grid-template-columns: 1fr; }
+}
