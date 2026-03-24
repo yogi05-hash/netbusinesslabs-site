@@ -140,7 +140,6 @@
             from { transform: rotate(0deg); }
             to { transform: rotate(360deg); }
         }
-        .play-button {
             position: relative;
             z-index: 1;
             width: 80px;
@@ -154,12 +153,9 @@
             cursor: pointer;
             transition: all 0.3s;
         }
-        .play-button:hover {
             background: rgba(212, 175, 55, 0.4);
             transform: scale(1.1);
         }
-        .play-button::after {
-            content: '▶';
             color: var(--accent-gold);
             font-size: 1.5rem;
             margin-left: 4px;
@@ -879,7 +875,6 @@
     <section class="hero">
         <div class="hero-video-container">
             <div class="hero-video-placeholder">
-                <div class="play-button"></div>
             </div>
         </div>
         <div class="hero-content">
@@ -1159,7 +1154,6 @@
                     <a href="#">📷</a>
                     <a href="#">🐦</a>
                     <a href="#">💼</a>
-                    <a href="#">▶️</a>
                 </div>
             </div>
             <div class="footer-links">
